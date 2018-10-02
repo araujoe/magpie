@@ -20,4 +20,7 @@
 *###################### R SECTION START (MODULETYPES) ##########################
 $Ifi "%water_demand%" == "agr_sector_aug13" $include "./modules/42_water_demand/agr_sector_aug13.gms"
 $Ifi "%water_demand%" == "all_sectors_aug13" $include "./modules/42_water_demand/all_sectors_aug13.gms"
+$Ifi "%water_demand%" == "agr_sector_wattc_out18" $include "./modules/42_water_demand/agr_sector_wattc_out18.gms"
 *###################### R SECTION END (MODULETYPES) ############################
+
+
